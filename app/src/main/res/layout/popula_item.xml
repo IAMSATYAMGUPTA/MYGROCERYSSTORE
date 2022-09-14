@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FBFBFB"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="280dp"
+            android:layout_height="160dp"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/popularimage"
+            android:src="@drawable/bigsale"
+            android:scaleType="centerCrop"
+            app:riv_border_color="#333333"
+            app:riv_corner_radius="14dp" />
+        <TextView
+            android:id="@+id/popularname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#786E6E"
+            android:text="Popular product"
+            android:textStyle="bold"
+            android:textSize="19dp"/>
+        <TextView
+            android:id="@+id/populardescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#786E6E"
+            android:text="Description"
+            android:maxLines="1"
+            android:singleLine="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_star_rate_24"/>
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_star_rate_24"/>
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_star_rate_24"/>
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_star_rate_24"/>
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_baseline_star_rate_24"/>
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="4dp"
+                android:text="5.0"
+                android:textSize="14dp"
+                android:textColor="#6E6969"
+                android:layout_weight="0.8"/>
+            <TextView
+                android:id="@+id/populardiscount"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="4dp"
+                android:text="Discount 50% off"
+                android:textColor="#0B7A07"
+                android:textStyle="bold"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

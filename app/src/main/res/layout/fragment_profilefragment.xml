@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/profilebackground"
+    tools:context=".Profilefragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/showprofiledetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/profileimg"
+            android:layout_marginBottom="8dp"
+            app:civ_border_width="2dp" />
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_btn"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Name     :  "
+                android:textColor="@color/black"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/profilename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name not register"
+                android:textColor="@color/black"
+                android:textColorHint="#786E6E"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_btn"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Mob no. :  "
+                android:textSize="17dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/profilemob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mob no. not register"
+                android:textSize="17dp"
+                android:inputType="number"
+                android:textColorHint="#786E6E"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_btn"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Mob no. :  "
+                android:textSize="17dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/profileamob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mob no. not register"
+                android:textSize="17dp"
+                android:inputType="number"
+                android:textColorHint="#786E6E"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_btn"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Email      :  "
+                android:textSize="17dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/profilemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Email not register"
+                android:textSize="17dp"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#786E6E"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_btn"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="State       :  "
+                android:textSize="17dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/profilestate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="State not register"
+                android:textColorHint="#786E6E"
+                android:textSize="17dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_btn"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="City         :  "
+                android:textSize="17dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/profilecity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="City not register"
+                android:textColorHint="#786E6E"
+                android:textSize="17dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_btn"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="Street     :  "
+                android:textSize="17dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/profilestreet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#786E6E"
+                android:hint="Home not register"
+                android:textSize="17dp"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/profilechangedetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="#0F970B"
+            android:text="update user detail"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <ProgressBar
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/profileloadprogressbar"
+            android:visibility="invisible"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/userdetailp"
+        android:visibility="invisible">
+
+        <EditText
+            android:id="@+id/usernamep"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:hint="Enter your name"
+            android:layout_marginTop="60dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/round_btn"/>
+        <EditText
+            android:id="@+id/usermobp"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:hint="Enter your Mob no."
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:paddingLeft="20dp"
+            android:background="@drawable/round_btn"/>
+        <EditText
+            android:id="@+id/useralternatemobp"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:hint="Enter your other Mob no."
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:paddingLeft="20dp"
+            android:background="@drawable/round_btn"/>
+        <EditText
+            android:id="@+id/useremailp"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:hint="Enter your email"
+            android:layout_marginTop="10dp"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="20dp"
+            android:background="@drawable/round_btn"/>
+
+        <EditText
+            android:id="@+id/userstatep"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:hint="Enter your state"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/round_btn"/>
+
+        <EditText
+            android:id="@+id/usercityp"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:hint="Enter your city"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/round_btn"/>
+        <EditText
+            android:id="@+id/userstreetp"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:hint="Enter your street address"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:background="@drawable/round_btn"/>
+
+        <Button
+            android:id="@+id/submituserdetailp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#159E0F"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:textSize="20dp"/>
+
+        <ProgressBar
+            android:id="@+id/submitdeatil_barp"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:indeterminate="true"
+            android:indeterminateTint="#0B7A07"
+            android:visibility="invisible"/>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

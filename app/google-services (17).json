@@ -1,0 +1,233 @@
+{
+  "project_info": {
+    "project_number": "422376733045",
+    "firebase_url": "https://emailuseractivity-default-rtdb.firebaseio.com",
+    "project_id": "emailuseractivity",
+    "storage_bucket": "emailuseractivity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422376733045:android:3e98cf7d71b49779067b3c",
+        "android_client_info": {
+          "package_name": "com.example.customnavigationdrawer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422376733045-f2nc608vpjj8p2l9kcqdua7k3uc83fg3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.customnavigationdrawer",
+            "certificate_hash": "190073c1d016ad0c1dd35b1f7cdfaadbee0b5163"
+          }
+        },
+        {
+          "client_id": "422376733045-pnqifgve7tg0ckjhn67saoi2t9h00qs1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5yna7Rhr8mLnvz-n98UX3eSKSHHsAnqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422376733045-pnqifgve7tg0ckjhn67saoi2t9h00qs1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422376733045:android:5dfef6eb0946722e067b3c",
+        "android_client_info": {
+          "package_name": "com.example.emailloginlogout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422376733045-s0gnvbpd2b7tv9crjav9e0n0kbihjhek.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emailloginlogout",
+            "certificate_hash": "190073c1d016ad0c1dd35b1f7cdfaadbee0b5163"
+          }
+        },
+        {
+          "client_id": "422376733045-pnqifgve7tg0ckjhn67saoi2t9h00qs1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5yna7Rhr8mLnvz-n98UX3eSKSHHsAnqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422376733045-pnqifgve7tg0ckjhn67saoi2t9h00qs1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422376733045:android:91a5f8a9252cec97067b3c",
+        "android_client_info": {
+          "package_name": "com.example.mygrocerstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422376733045-mk0dm4k2mlnafhpqpna456gg9pah28o7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mygrocerstore",
+            "certificate_hash": "190073c1d016ad0c1dd35b1f7cdfaadbee0b5163"
+          }
+        },
+        {
+          "client_id": "422376733045-pnqifgve7tg0ckjhn67saoi2t9h00qs1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5yna7Rhr8mLnvz-n98UX3eSKSHHsAnqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422376733045-pnqifgve7tg0ckjhn67saoi2t9h00qs1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422376733045:android:6c3e10d2ae3f6b8a067b3c",
+        "android_client_info": {
+          "package_name": "com.example.mygrocerysstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422376733045-ioinsogcl6df42mhq3sne95voc0uhd0o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mygrocerysstore",
+            "certificate_hash": "190073c1d016ad0c1dd35b1f7cdfaadbee0b5163"
+          }
+        },
+        {
+          "client_id": "422376733045-pnqifgve7tg0ckjhn67saoi2t9h00qs1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5yna7Rhr8mLnvz-n98UX3eSKSHHsAnqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422376733045-pnqifgve7tg0ckjhn67saoi2t9h00qs1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422376733045:android:494234419f0733b6067b3c",
+        "android_client_info": {
+          "package_name": "com.example.mygrocerystore3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422376733045-c26iua5aho1vl0tbvo0b53dmtq882gie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mygrocerystore3",
+            "certificate_hash": "190073c1d016ad0c1dd35b1f7cdfaadbee0b5163"
+          }
+        },
+        {
+          "client_id": "422376733045-pnqifgve7tg0ckjhn67saoi2t9h00qs1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5yna7Rhr8mLnvz-n98UX3eSKSHHsAnqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422376733045-pnqifgve7tg0ckjhn67saoi2t9h00qs1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422376733045:android:ecf0e23ea3721838067b3c",
+        "android_client_info": {
+          "package_name": "com.example.mystore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422376733045-udase8c5b6jv8g5550h6i15qjam2kn3q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mystore",
+            "certificate_hash": "190073c1d016ad0c1dd35b1f7cdfaadbee0b5163"
+          }
+        },
+        {
+          "client_id": "422376733045-pnqifgve7tg0ckjhn67saoi2t9h00qs1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5yna7Rhr8mLnvz-n98UX3eSKSHHsAnqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "422376733045-pnqifgve7tg0ckjhn67saoi2t9h00qs1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

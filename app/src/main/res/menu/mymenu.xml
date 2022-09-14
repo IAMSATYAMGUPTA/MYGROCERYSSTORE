@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+
+
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile"/>
+
+    <item
+        android:id="@+id/nav_Category"
+        android:icon="@drawable/ic_baseline_category_24"
+        android:title="Category"/>
+
+    <item
+        android:id="@+id/nav_offer"
+        android:icon="@drawable/ic_baseline_local_offer_24"
+        android:title="Offers"/>
+
+    <item
+        android:id="@+id/nav_newprodect"
+        android:icon="@drawable/ic_baseline_autorenew_24"
+        android:title="New Products"/>
+
+    <item
+        android:id="@+id/nav_mycart"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="My Cart"/>
+
+    <item
+        android:id="@+id/nav_myorder"
+        android:icon="@drawable/ic_baseline_add_shopping_cart_24"
+        android:title="My Orders"/>
+
+    <item
+        android:title=""/>
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_baseline_arrow_outward_24" />
+
+
+</menu>
