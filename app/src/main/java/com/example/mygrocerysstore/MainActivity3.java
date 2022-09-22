@@ -18,6 +18,6 @@ public class MainActivity3 extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(),MainActivity2.class);
                 startActivity(intent);
             }
-        },5000);
+        },2000);
     }
 }

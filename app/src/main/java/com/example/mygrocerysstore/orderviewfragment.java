@@ -104,7 +104,7 @@ public class orderviewfragment extends Fragment {
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
                         long i = snapshot.getChildrenCount();
                         firebaseDatabase.getReference("cartdetail").child(id).child(String.valueOf(i+1)).setValue(mycartmodel);
-                        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.container,new Mycartfragment()).commit();
+                        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.container,new carttfragment()).commit();
                     }
 
                     @Override

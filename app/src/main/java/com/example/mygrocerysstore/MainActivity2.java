@@ -27,7 +27,6 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.navigation.NavigationView;
@@ -182,7 +181,7 @@ public class MainActivity2 extends AppCompatActivity {
                 }
                 if (id == R.id.nav_mycart) {
                     Toast.makeText(MainActivity2.this, "mycart selected", Toast.LENGTH_SHORT).show();
-                    getSupportFragmentManager().beginTransaction().replace(R.id.container,new Mycartfragment()).commit();
+                    getSupportFragmentManager().beginTransaction().replace(R.id.container,new carttfragment()).commit();
                 }
                 if (id == R.id.nav_myorder) {
                     Toast.makeText(MainActivity2.this, "This feature is not update", Toast.LENGTH_SHORT).show();

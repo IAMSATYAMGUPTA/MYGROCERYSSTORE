@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <EditText
+        <AutoCompleteTextView
             android:elevation="3dp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -26,6 +26,13 @@
             android:textColor="@color/black"
             android:textColorHint="#2B2828"
             android:hint="Search Your Item Here..."/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_bar"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"

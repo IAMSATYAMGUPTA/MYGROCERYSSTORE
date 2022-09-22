@@ -12,6 +12,7 @@
         <entry key="..\:/FIREBASE/MYGROCERYSSTORE/app/src/main/res/layout/activity_main3.xml" value="0.2033514492753623" />
         <entry key="..\:/FIREBASE/MYGROCERYSSTORE/app/src/main/res/layout/appbar_main.xml" value="0.2033514492753623" />
         <entry key="..\:/FIREBASE/MYGROCERYSSTORE/app/src/main/res/layout/content_main.xml" value="0.2033514492753623" />
+        <entry key="..\:/FIREBASE/MYGROCERYSSTORE/app/src/main/res/layout/fragment_carttfragment.xml" value="0.2033514492753623" />
         <entry key="..\:/FIREBASE/MYGROCERYSSTORE/app/src/main/res/layout/fragment_categoryfragment.xml" value="0.2033514492753623" />
         <entry key="..\:/FIREBASE/MYGROCERYSSTORE/app/src/main/res/layout/fragment_fruits.xml" value="0.2033514492753623" />
         <entry key="..\:/FIREBASE/MYGROCERYSSTORE/app/src/main/res/layout/fragment_homefragment.xml" value="0.2033514492753623" />
@@ -23,7 +24,10 @@
         <entry key="..\:/FIREBASE/MYGROCERYSSTORE/app/src/main/res/layout/fragment_profilefragment.xml" value="0.2033514492753623" />
         <entry key="..\:/FIREBASE/MYGROCERYSSTORE/app/src/main/res/layout/fragment_vegetables.xml" value="0.2033514492753623" />
         <entry key="..\:/FIREBASE/MYGROCERYSSTORE/app/src/main/res/layout/fruititem.xml" value="0.176" />
+        <entry key="..\:/FIREBASE/MYGROCERYSSTORE/app/src/main/res/layout/mycartitem.xml" value="0.2033514492753623" />
         <entry key="..\:/FIREBASE/MYGROCERYSSTORE/app/src/main/res/layout/popula_item.xml" value="0.2033514492753623" />
+        <entry key="..\:/FIREBASE/MYGROCERYSSTORE/app/src/main/res/layout/search_item.xml" value="0.2033514492753623" />
+        <entry key="..\:/FIREBASE/MYGROCERYSSTORE/app/src/main/res/layout/viewallvegetable.xml" value="0.2033514492753623" />
         <entry key="..\:/FIREBASE/MYGROCERYSSTORE/app/src/main/res/menu/mymenu.xml" value="0.23229166666666667" />
         <entry key="..\:/FIREBASE/MYGROCERYSSTORE/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.16" />
       </map>
