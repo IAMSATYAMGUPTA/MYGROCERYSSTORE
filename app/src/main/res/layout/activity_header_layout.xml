@@ -12,7 +12,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:orientation="vertical"
         android:background="#8FBD37"
-        android:layout_height="290dp"
+        android:layout_height="300dp"
         tools:ignore="MissingConstraints">
 
         -->
@@ -42,7 +42,7 @@
             android:text="satyamgupta6262@gmail.com"
             android:layout_marginLeft="25dp"
             android:textColor="@color/black"
-            android:textSize="18dp"/>
+            android:textSize="15dp"/>
 
     </LinearLayout>
 

@@ -45,6 +45,8 @@ public class MainActivity2 extends AppCompatActivity {
     DatabaseReference databaseReference;
     DrawerLayout drawerLayout;
     NavigationView navigationView;
+    View headerView;
+    TextView drawername,draweremail;
     Toolbar toolbar;
     ConstraintLayout constraintLayout;
     LinearLayout logincard,forgotcard,registercard,uuserdeatil;
@@ -133,6 +135,9 @@ public class MainActivity2 extends AppCompatActivity {
         submituserdetail = findViewById(R.id.submituserdetail);
         userdetail = new Userdetail();
         detailprogressbar = findViewById(R.id.submitdeatil_bar);
+
+        //set navigation drawer
+        setnavigationdrawer();
 
         // splashscreen
         splashscreen = findViewById(R.id.splashscreenn);
@@ -412,6 +417,30 @@ public class MainActivity2 extends AppCompatActivity {
 
 
     }
+
+    private void setnavigationdrawer() {
+        headerView = navigationView.getHeaderView(0);
+        drawername = headerView.findViewById(R.id.drawerprofilename);
+        draweremail = headerView.findViewById(R.id.drawerprofileemail);
+        Currentuser = mAuth.getInstance().getCurrentUser();
+        String id = Currentuser.getUid();
+        DatabaseReference reference;
+        reference = FirebaseDatabase.getInstance().getReference("Data").child(id);
+        reference.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                Userdetail userdetail = snapshot.getValue(Userdetail.class);
+                drawername.setText(userdetail.getName());
+                draweremail.setText(userdetail.getEmail());
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+    }
+
     @Override
     public void onBackPressed() {
         if(drawerLayout.isDrawerOpen(GravityCompat.START)){

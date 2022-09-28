@@ -84,13 +84,7 @@ public class Profilefragment extends Fragment {
         reference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-//                String name1 = snapshot.child("name").getValue().toString();
-//                String mob1 = snapshot.child("mobile").getValue().toString();
-//                String amob1 = snapshot.child("amobile").getValue().toString();
-//                String email1 = snapshot.child("email").getValue().toString();
-//                String state1 = snapshot.child("state").getValue().toString();
-//                String city1 = snapshot.child("city").getValue().toString();
-//                String street1 = snapshot.child("street").getValue().toString();
+
                 Userdetail userdetail = snapshot.getValue(Userdetail.class);
 
 //                userdetail.setName("satyam");
