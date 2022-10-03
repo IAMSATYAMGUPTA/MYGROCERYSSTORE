@@ -136,9 +136,6 @@ public class MainActivity2 extends AppCompatActivity {
         userdetail = new Userdetail();
         detailprogressbar = findViewById(R.id.submitdeatil_bar);
 
-        //set navigation drawer
-        setnavigationdrawer();
-
         // splashscreen
         splashscreen = findViewById(R.id.splashscreenn);
 
@@ -155,9 +152,11 @@ public class MainActivity2 extends AppCompatActivity {
                 this, drawerLayout, toolbar, R.string.opendrawer, R.string.closedrawer);
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
+
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
                 Fragment fragment = null;
 //                FragmentManager fragmentManager = getFragmentManager();
 //                Bundle bundle = new Bundle();
@@ -252,6 +251,8 @@ public class MainActivity2 extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if(task.isSuccessful()){
+                                //set navigation drawer
+                                setnavigationdrawer();
                                 loginemailText.setText("");
                                 loginpasswordtext.setText("");
                                 loginprogressBar.setVisibility(View.INVISIBLE);
@@ -318,6 +319,8 @@ public class MainActivity2 extends AppCompatActivity {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if(task.isSuccessful()){
+                                    //set navigation drawer
+                                    setnavigationdrawer();
                                     registeremailText.setText("");
                                     registerpasswordtext.setText("");
                                     registerconfirmpasswordtext.setText("");
@@ -422,11 +425,10 @@ public class MainActivity2 extends AppCompatActivity {
         headerView = navigationView.getHeaderView(0);
         drawername = headerView.findViewById(R.id.drawerprofilename);
         draweremail = headerView.findViewById(R.id.drawerprofileemail);
-        Currentuser = mAuth.getInstance().getCurrentUser();
+        FirebaseUser Currentuser = FirebaseAuth.getInstance().getCurrentUser();
         String id = Currentuser.getUid();
-        DatabaseReference reference;
-        reference = FirebaseDatabase.getInstance().getReference("Data").child(id);
-        reference.addValueEventListener(new ValueEventListener() {
+        databaseReference = FirebaseDatabase.getInstance().getReference("Data").child(id);
+        databaseReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 Userdetail userdetail = snapshot.getValue(Userdetail.class);
